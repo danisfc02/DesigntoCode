@@ -22,12 +22,12 @@ namespace ConsoleApp2
         {
             return true;
         }
-        Pedido();
+        public bool Pedido()
+        {
+            return true;
+        }
     }
-    public class Pedido
-    {
-
-    }
+    
 
     public class product
     {
@@ -67,13 +67,14 @@ namespace ConsoleApp2
         public string comentario;
         public int tratamiento_productos;
         public product productos_relacionados;
-        Add_Review()
+        public bool AddReview()
+        {
+            return true;
+        }
         public product product;
         public user user;
     }
-    public class Add_Review{
-
-    }
+   
 
 
     public class user
@@ -104,21 +105,19 @@ namespace ConsoleApp2
     {
         public list list<product>;
         public float preciofinal;
-        AddProduct();
-        RemoveProduct();
-        AddPay();
+        public bool AddProduct()
+        {
+            return true;
+        }
+        public bool RemoveProduct()
+        {
+            return true;
+        }
+        public bool AddPay()
+        {
+            return true;
+        }
         public user user;
     }
-    public class AddProduct
-    {
-
-    }
-    public class RemoveProduct
-    {
-
-    }
-    public class AddPay
-    {
-
-    }
+   
 }
