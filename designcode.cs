@@ -51,15 +51,15 @@ namespace ConsoleApp2
 
     public class productosimple : product
     {
-        public categoria list<category>;
-        public subcategoria list<category>;  
+        public string categoria;
+        public string subcategoria;
     }
 
     public class productocomplejo : product
     {
-        public categoria list<category>;
-        public subcategoria list<category>;
-        public subcategoria1 list<category>;
+        public string categoria;
+        public string subcategoria;
+        public string subcategoria1;
     }
     
     public class Review
